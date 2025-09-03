@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.btn.delete {
+  background: #dc3545;
+}
+
+.btn.delete:hover {
+  background: #a71d2a;
+}
+
+.btn.logout {
+  background: #ff5722;
+}
+
+.task-item {
+  background: white;
+  padding: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.due-date {
+  margin-left: 10px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.priority {
+  margin-left: 8px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+
+.priority.low {
+  background: #d4edda;
+  color: #155724;
+}
+
+.priority.medium {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.priority.high {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.filter-bar {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.dashboard {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
